@@ -1,8 +1,9 @@
-var crypto = require('crypto');
-var express = require('express');
-var app = express();
+// 1. FIXED: Changed 'var' to 'const' (no-var)
+const express = require('express');
+const app = express();
 
-const unusedVariable = "I am never used anywhere";
+// 2. FIXED: Changed 'var' to 'const' (no-var)
+const unusedVariable = "I am never used";
 
 function emptyFunction() {
 }
