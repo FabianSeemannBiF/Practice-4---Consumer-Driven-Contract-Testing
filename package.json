@@ -1,0 +1,25 @@
+{
+  "name": "practice-4---consumer-driven-contract-testing",
+  "version": "1.0.0",
+  "description": "Self-Study H",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianSeemannBiF/Practice-4---Consumer-Driven-Contract-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabianSeemannBiF/Practice-4---Consumer-Driven-Contract-Testing/issues"
+  },
+  "homepage": "https://github.com/FabianSeemannBiF/Practice-4---Consumer-Driven-Contract-Testing#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "globals": "^17.6.0"
+  }
+}
