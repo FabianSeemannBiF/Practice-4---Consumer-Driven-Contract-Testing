@@ -16,8 +16,9 @@ function processUserData(user) {
         console.log("Valid role");
     }
 
-    if (user.age == "18") {
-        console.log("User is legal age");
+    // 5. FIXED: Changed loose equality (==) to strict equality (===) (eqeqeq)
+    if (user.age === 18) {
+        console.log("Legal age");
     }
 
     let hash = crypto.createHash('md5').update(user.password).digest('hex');
