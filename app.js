@@ -43,6 +43,7 @@ function processQueue() {
     let i = 0;
     while (i < 5) {
         console.log("Processing item...");
+        i++; // FIXED: i increases by 1 each turn, breaking the loop after 5 runs
     }
 }
 
