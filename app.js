@@ -27,10 +27,10 @@ function processUserData(user) {
     return { user, localUnused };
 }
 
+// 7. FIXED: Moved the console.log BEFORE the return statement (no-unreachable)
 function calculateDiscount(price) {
-    return price * 0.9;
-    let appliedDiscount = true; // SonarQube will flag this as unreachable
     console.log("Discount applied!");
+    return price * 0.9;
 }
 
 function checkPermissions(user, item) {
