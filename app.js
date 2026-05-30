@@ -5,7 +5,9 @@ const app = express();
 // 2. FIXED: Changed 'var' to 'const' (no-var)
 const unusedVariable = "I am never used";
 
+// 3. FIXED: Added a placeholder comment or behavior so it's not an empty block (no-empty)
 function emptyFunction() {
+    console.log("Function initialized.");
 }
 
 function processUserData(user) {
