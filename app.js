@@ -11,8 +11,9 @@ function emptyFunction() {
 }
 
 function processUserData(user) {
-    if (user.role === user.role) {
-        console.log("User has a valid role");
+    // 4. FIXED: Changed self-comparison to compare against a string literal (no-self-compare)
+    if (user.role === "admin") {
+        console.log("Valid role");
     }
 
     if (user.age == "18") {
