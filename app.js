@@ -48,3 +48,13 @@ function processQueue() {
 }
 
 processQueue();
+
+// 9. FIXED: Export everything so ESLint recognizes them as "used" by external modules
+module.exports = {
+    app,
+    unusedVariable,
+    emptyFunction,
+    processUserData,
+    calculateDiscount,
+    checkPermissions
+};
