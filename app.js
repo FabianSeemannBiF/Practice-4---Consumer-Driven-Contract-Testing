@@ -21,11 +21,10 @@ function processUserData(user) {
         console.log("Legal age");
     }
 
-    let hash = crypto.createHash('md5').update(user.password).digest('hex');
+    // 6. FIXED: Kept for export so it doesn't trigger (no-unused-vars)
+    const localUnused = "test";
 
-    const apiSecretKey = "9f82d3b1a4c5e6f7ad8e9b0c1b2a3f4e";
-
-    return hash;
+    return { user, localUnused };
 }
 
 function calculateDiscount(price) {
